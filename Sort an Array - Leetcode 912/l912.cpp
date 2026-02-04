@@ -1,5 +1,7 @@
 //Merge sort divides the array into two halves, recursively sorts each half, and then merges the sorted halves. The merge step combines two sorted arrays into one by repeatedly picking the smaller element from the front of each array. This divide-and-conquer approach guarantees O(n log n) time regardless of input order.
 
+//Time O(nlogn); Time: O(n)
+
 class Solution {
 public:
     vector<int> sortArray(vector<int>& nums) {
